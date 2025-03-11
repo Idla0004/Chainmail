@@ -20,7 +20,72 @@
   src: url(/fonts/Lato-Bold.ttf);
 }
 
-h1 {
+.font_1 {
+  font-family: abril;
   text-align: center;
-  color: aqua;
+  color: #403b35;
+  font-size: 30px;
+}
+.column {
+  flex-direction: column;
+  justify-content: left;
+}
+
+.head_1 {
+  font-family: abril;
+  color: #403b35;
+  font-size: 30px;
+}
+
+.head_2 {
+  font-family: latoreg;
+  color: #403b35;
+  font-size: 20px;
+}
+a {
+  color: #403b35;
+  text-decoration: none;
+}
+
+ul {
+  font-family: abril;
+  font-size: 30px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  flex-basis: 50%;
+  justify-content: space-evenly;
+  list-style: none;
+  padding: 2%;
+}
+
+.info {
+  font-family: lato;
+  font-size: 18px;
+  color: #8c7568;
+  background-color: #f2f2f0;
+  padding: 20px;
+  text-align: center;
+  border: solid;
+  border-color: #403b35;
+  border-radius: 10cap;
+}
+
+img {
+  border-radius: 5%;
+}
+
+.frontimg {
+  padding: 5%;
+}
+
+.footer {
+  background-color: #8c7568;
+}
+
+.info1 {
+  font-family: "lato";
+  font-size: 18px;
+  display: flex;
+  flex-direction: column;
 }
