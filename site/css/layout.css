@@ -84,19 +84,46 @@ img {
 }
 
 .info1 {
-  font-family: "latotreg";
+  font-family: "latoreg";
   font-size: 18px;
-  justify-content: left;
-  width: 35%;
+  width: 10%;
   text-align: left;
 }
 
-.btn {
-  font-family: latobold;
-  color: #4e321a;
-  background-color: #f2f2f0;
-  font-size: 20px;
+.button-wrapper {
+  display: block;
   text-align: center;
+  font-family: latobold;
+}
+
+.button {
+  color: #8c7568;
+  background-color: #f2f2f0;
   border: solid;
-  border-color: #f2f2f0;
+  border-color: #403b35;
+  border-radius: 3em;
+  box-shadow: 2px 2px 2px #403b35;
+  display: inline-block;
+  padding: 1em 2em;
+  width: auto;
+}
+
+.some {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 40px;
+  justify-content: right;
+  list-style: none;
+  padding: 2%;
+}
+
+.footer {
+  margin-top: 5%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  flex-basis: 50%;
+  justify-content: space-evenly;
+  list-style: none;
+  padding: 2%;
 }
