@@ -60,7 +60,7 @@ ul {
 }
 
 .info {
-  font-family: lato;
+  font-family: latoreg;
   font-size: 18px;
   color: #8c7568;
   background-color: #f2f2f0;
@@ -84,8 +84,19 @@ img {
 }
 
 .info1 {
-  font-family: "lato";
+  font-family: "latotreg";
   font-size: 18px;
-  display: flex;
-  flex-direction: column;
+  justify-content: left;
+  width: 35%;
+  text-align: left;
+}
+
+.btn {
+  font-family: latobold;
+  color: #4e321a;
+  background-color: #f2f2f0;
+  font-size: 20px;
+  text-align: center;
+  border: solid;
+  border-color: #f2f2f0;
 }
