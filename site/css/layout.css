@@ -5,3 +5,22 @@
   }
 }
 
+@font-face {
+  font-family: abril;
+  src: url(/fonts/AbrilFatface-Regular.ttf);
+}
+
+@font-face {
+  font-family: latoreg;
+  src: url(/fonts/Lato-Regular.ttf);
+}
+
+@font-face {
+  font-family: latobold;
+  src: url(/fonts/Lato-Bold.ttf);
+}
+
+h1 {
+  text-align: center;
+  color: aqua;
+}
