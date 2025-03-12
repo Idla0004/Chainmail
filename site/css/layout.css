@@ -1,4 +1,4 @@
-@media (min-width: 600px max-width: 1600px) {
+@media screen (min-width: 600px max-width: 1600px) {
   main {
     max-width: 1000px;
     margin: 0 auto;
@@ -105,6 +105,7 @@ nav ul {
   border-color: #403b35;
   box-shadow: 2px 2px 2px #8c7568;
   margin: auto;
+  margin-bottom: 20px;
   padding: 20px;
   min-width: none;
   max-width: 600px;
@@ -120,10 +121,11 @@ nav ul {
   font-family: "latoreg";
   color: #f2f2f0;
   font-size: 18px;
-  width: 10%;
+  width: 50%;
   text-align: left;
   margin-top: 20px;
   margin-left: 20px;
+  margin-bottom: 10px;
 }
 
 .button-wrapper {
@@ -157,7 +159,7 @@ nav ul {
 }
 
 .some img {
-  width: 40px; /* Adjust image size if necessary */
+  width: 40px;
   height: auto;
   margin: 10px;
   margin-right: 10px;
@@ -180,7 +182,7 @@ nav ul {
   flex-direction: row;
   align-items: normal;
   grid-template-columns: 2fr 1fr;
-  gap: 10em;
+  gap: 1em;
   padding: 20px;
   margin-top: 20px;
 }
@@ -190,8 +192,18 @@ nav ul {
   color: #403b35;
   background-color: #f2f2f0;
   border-radius: 10px;
-  margin: 10px;
-  padding: 20px;
+  padding: 10px;
+  max-width: 500px;
+  width: 100%;
+  text-align: left;
+  display: block;
+}
+
+@media (max-width: 480px) {
+  .tut1 {
+    max-width: 90%;
+    padding: 15px;
+  }
 }
 
 .tut2 {
@@ -200,6 +212,7 @@ nav ul {
   border-radius: 10px;
   margin: 10px;
   padding: 20px;
+  margin-bottom: 10px;
 }
 
 .box1 {
@@ -249,7 +262,7 @@ nav ul {
   flex-direction: row;
   align-items: normal;
   grid-template-columns: 1fr 2fr;
-  gap: 10em;
+  gap: 5em;
   padding: 20px;
   margin-top: 20px;
 }
@@ -258,7 +271,7 @@ nav ul {
   font-family: abril;
   text-align: center;
   font-size: 22px;
-  margin-bottom: 15px;
+  margin-bottom: 10px;
 }
 
 .tools2 {
@@ -269,4 +282,15 @@ nav ul {
   border-radius: 3em;
   display: inline-block;
   padding: 10px 20px;
+}
+
+@media (max-width: 768px) {
+  .grid1_2 {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .grid1_2 img {
+    width: 400px;
+  }
 }
