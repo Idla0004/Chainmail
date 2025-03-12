@@ -45,6 +45,7 @@
   color: #403b35;
   font-size: 25px;
   text-align: center;
+  margin: -10px;
 }
 
 .head_2 {
@@ -83,31 +84,32 @@ nav img {
 
 nav ul {
   display: flex;
+  object-fit: contain;
   flex-wrap: wrap;
   flex-basis: 80%;
   justify-content: space-between;
   list-style-type: none;
   padding: 0;
-  margin: 50px;
+  margin: auto;
   font-family: abril;
   font-size: 30px;
 }
 
 .info {
   font-family: latoreg;
+  text-align: center;
   font-size: 18px;
   color: #403b35;
   background-color: #f2f2f0;
-  padding: 20px;
-  text-align: center;
   border: solid;
-  border-color: #8c7568;
-  border-radius: 10cap;
+  border-color: #403b35;
   box-shadow: 2px 2px 2px #8c7568;
-}
-
-img {
-  border-radius: 5%;
+  margin: auto;
+  padding: 20px;
+  min-width: none;
+  max-width: 600px;
+  border: solid;
+  border-radius: 10cap;
 }
 
 .frontimg {
@@ -116,9 +118,12 @@ img {
 
 .info1 {
   font-family: "latoreg";
+  color: #f2f2f0;
   font-size: 18px;
   width: 10%;
   text-align: left;
+  margin-top: 20px;
+  margin-left: 20px;
 }
 
 .button-wrapper {
@@ -136,33 +141,42 @@ img {
   box-shadow: 2px 2px 2px #403b35;
   display: inline-block;
   padding: 1em 2em;
-  width: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 .some {
   display: flex;
-  flex-direction: column;
-  flex-basis: 40px;
-  justify-content: right;
-  list-style: none;
-  padding: 2%;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  width: 100%;
+  gap: 10px;
+  margin-right: 20px;
+  padding-right: 20px;
+}
+
+.some img {
+  width: 40px; /* Adjust image size if necessary */
+  height: auto;
+  margin: 10px;
+  margin-right: 10px;
 }
 
 .footer {
   background-color: #8c7568;
-  margin-top: 5%;
   display: flex;
-  flex-direction: row;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  flex-direction: column;
   flex-wrap: wrap;
-  flex-basis: 50%;
   justify-content: space-evenly;
   list-style: none;
-  padding: 2%;
+  padding: 0px;
 }
 
 .grid2_1 {
   display: grid;
-  display: flex;
   flex-direction: row;
   align-items: normal;
   grid-template-columns: 2fr 1fr;
@@ -206,6 +220,7 @@ img {
   padding: 1em 2em;
   margin: auto;
   margin-right: 30px;
+  margin-bottom: 10px;
   width: 300px;
 }
 
@@ -226,4 +241,32 @@ img {
   box-shadow: 1px 1px 1px #8c7568;
   width: 400px;
   margin: auto;
+}
+
+.grid1_2 {
+  display: grid;
+  display: flex;
+  flex-direction: row;
+  align-items: normal;
+  grid-template-columns: 1fr 2fr;
+  gap: 10em;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+.tools1 {
+  font-family: abril;
+  text-align: center;
+  font-size: 22px;
+  margin-bottom: 15px;
+}
+
+.tools2 {
+  font-family: latoreg;
+  color: #f2f2f0;
+  background-color: #595540;
+  border: none;
+  border-radius: 3em;
+  display: inline-block;
+  padding: 10px 20px;
 }
