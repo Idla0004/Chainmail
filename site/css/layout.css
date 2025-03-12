@@ -1,4 +1,4 @@
-@media (max-width: 600px) {
+@media (min-width: 600px max-width: 1600px) {
   main {
     max-width: 1000px;
     margin: 0 auto;
@@ -93,18 +93,6 @@ nav ul {
   font-size: 30px;
 }
 
-/* ul {
-  font-family: abril;
-  font-size: 30px;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  flex-basis: 50%;
-  justify-content: space-evenly;
-  list-style: none;
-  padding: 2%;
-} */
-
 .info {
   font-family: latoreg;
   font-size: 18px;
@@ -173,27 +161,14 @@ img {
 }
 
 .grid2_1 {
-  background-color: #8c7568;
   display: grid;
   display: flex;
   flex-direction: row;
   align-items: normal;
-  grid-template-columns: 2fr 1fr 1fr 1fr;
+  grid-template-columns: 2fr 1fr;
   gap: 10em;
   padding: 20px;
-  margin: auto;
-}
-
-.grid2_1 {
-  background-color: #8c7568;
-  display: grid;
-  display: flex;
-  flex-direction: row;
-  align-items: normal;
-  grid-template-columns: 2fr 1fr 1fr 1fr;
-  gap: 10em;
-  padding: 20px;
-  margin: auto;
+  margin-top: 20px;
 }
 
 .tut1 {
@@ -211,4 +186,44 @@ img {
   border-radius: 10px;
   margin: 10px;
   padding: 20px;
+}
+
+.box1 {
+  background-color: #403b35;
+  margin-bottom: 20px;
+}
+
+.btn2 {
+  display: flex;
+  flex-direction: column;
+  font-family: abril;
+  text-align: right;
+  color: #403b35;
+  background-color: #fdfaf5;
+  border: solid;
+  border-color: #4e321a;
+  border-radius: 1em;
+  padding: 1em 2em;
+  margin: auto;
+  margin-right: 30px;
+  width: 300px;
+}
+
+/* værktøj */
+
+.tools {
+  display: flex;
+  flex-direction: column;
+  font-family: abril;
+  font-size: 30px;
+  color: #403b35;
+  background-color: #f2f2f0;
+  padding: 20px;
+  text-align: center;
+  border: solid;
+  border-color: #8c7568;
+  border-radius: 10cap;
+  box-shadow: 1px 1px 1px #8c7568;
+  width: 400px;
+  margin: auto;
 }
