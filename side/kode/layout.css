@@ -1,0 +1,135 @@
+@media (width >= 800px) {
+  main {
+    display: grid;
+    gap: 1em;
+  }
+}
+
+@font-face {
+  font-family: abril;
+  src: url(/fonts/AbrilFatface-Regular.ttf);
+}
+
+@font-face {
+  font-family: lato;
+  src: url(/fonts/Lato-Regular.ttf);
+}
+
+@font-face {
+  font-family: latob;
+  src: url(/fonts/Lato-Bold.ttf);
+}
+
+ul {
+  font-family: abril;
+  font-size: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  flex-basis: 80%;
+  justify-content: space-evenly;
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 20px;
+}
+
+.head1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  line-height: 1.1;
+}
+
+main p {
+  font-family: lato;
+  text-align: center;
+  font-size: 18px;
+  color: #403b35;
+  background-color: #f2f2f0;
+  border: solid;
+  border-color: #403b35;
+  box-shadow: 2px 2px 2px #8c7568;
+  margin: auto;
+  margin-bottom: 20px;
+  padding: 20px;
+  min-width: none;
+  max-width: 600px;
+  border: solid;
+  border-radius: 10cap;
+}
+
+.grid_1-1-1 {
+  display: flex;
+  width: 90%;
+  max-width: 1200px;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 20px;
+}
+
+.button-wrapper {
+  display: flex;
+  justify-content: center;
+  font-family: latob;
+  flex: 1;
+}
+
+footer p {
+  flex: 2;
+  text-align: left;
+  min-width: 200px;
+  font-family: lato;
+}
+
+.social-media {
+  display: flex;
+  gap: 10px;
+  justify-content: flex-end;
+  flex: 1;
+  min-width: 150px;
+}
+
+footer img {
+  width: 30px;
+  height: auto;
+}
+
+img {
+  max-width: 100%;
+  max-height: 100%;
+  display: block;
+  border-radius: 5px;
+}
+
+.frontimg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+  margin: auto;
+}
+
+.frontimg img {
+  max-width: 80%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.h1-1 {
+  font-family: abril;
+  color: #403b35;
+  font-size: 20px;
+  text-align: center;
+  margin: 30px;
+}
