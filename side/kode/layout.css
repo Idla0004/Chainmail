@@ -128,10 +128,28 @@ img {
 
 .h1-1 {
   font-family: abril;
+  font-size: 40px;
   color: #403b35;
   font-size: 20px;
   text-align: center;
   margin: 30px;
+}
+
+.tutorial-container {
+  font-family: lato;
+  text-align: center;
+  font-size: 18px;
+  color: #fdfaf5;
+  background-color: #595540;
+  border: solid;
+  border-color: #403b35;
+  margin: auto;
+  margin-bottom: 20px;
+  padding: 20px;
+  min-width: none;
+  max-width: 800px;
+  border: solid;
+  border-radius: 8px;
 }
 
 .box1 h2 {
@@ -154,6 +172,27 @@ img {
   margin-bottom: 10px;
   margin-top: 10px;
   width: 400px;
+}
+
+.tutimg {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 1em;
+  padding: 10px;
+}
+
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+/* Centered text */
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 /* Pop up button i værktøj */
@@ -180,6 +219,20 @@ img {
   border: 1px solid #595540;
   border-radius: 5px;
   width: 40%;
+}
+
+.modal-content p,
+h3 {
+  text-align: left;
+  padding-right: 50px;
+}
+
+.modal-content h3 {
+  font-family: abril;
+}
+
+.modal-content p {
+  font-family: lato;
 }
 
 .close {

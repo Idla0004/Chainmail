@@ -65,7 +65,7 @@ footer {
 
 .tut1 h1 {
   font-family: abril;
-  font-size: 30px;
+  font-size: 40px;
   color: #4e321a;
   text-align: center;
 }
@@ -147,6 +147,16 @@ footer {
   margin-top: 10px;
 }
 
+@media only screen and (max-width: 600px) {
+  .tools1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    margin: auto;
+    padding: 2%;
+  }
+}
+
 .text-container2 {
   padding-left: 5%;
   display: flex;
@@ -163,7 +173,7 @@ footer {
   font-size: 30px;
   color: #403b35;
   background-color: #f2f2f0;
-  padding: 20px;
+  padding: 10px;
   text-align: center;
   border: solid;
   border-color: #8c7568;
@@ -171,7 +181,8 @@ footer {
   box-shadow: 1px 1px 1px #8c7568;
   width: 400px;
   margin: auto;
-  margin-top: 10px;
+  margin-top: 20px;
+  margin-bottom: 10px;
 }
 
 .tools2 {
