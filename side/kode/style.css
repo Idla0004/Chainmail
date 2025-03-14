@@ -141,7 +141,7 @@ footer {
   width: 100%;
   text-align: center;
   display: flex;
-  align-items: center;
+  align-items: last baseline;
   margin: auto;
   margin-bottom: 10px;
   margin-top: 10px;
@@ -154,6 +154,16 @@ footer {
     align-items: center;
     margin: auto;
     padding: 2%;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .box1 img {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    align-items: center;
+    max-width: 150px;
+    max-height: 150px;
   }
 }
 

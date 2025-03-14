@@ -137,7 +137,7 @@ img {
 
 .tutorial-container {
   font-family: lato;
-  text-align: center;
+  text-align: left;
   font-size: 18px;
   color: #fdfaf5;
   background-color: #595540;
@@ -174,25 +174,62 @@ img {
   width: 400px;
 }
 
+.h1-2 {
+  font-family: abril;
+  font-size: 40px;
+  color: #403b35;
+  font-size: 30px;
+  text-align: center;
+}
+
 .tutimg {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   gap: 1em;
-  padding: 10px;
+  padding-bottom: 20px;
 }
 
 .container {
   position: relative;
   text-align: center;
   color: white;
+  padding: 10px;
 }
 
-/* Centered text */
-.centered {
+.centered a {
   position: absolute;
-  top: 50%;
-  left: 50%;
+  display: block;
+  top: 85%;
+  left: 42%;
   transform: translate(-50%, -50%);
+  color: #fdfaf5;
+  font-family: lato;
+  font-size: 30px;
+  background-color: #4e321a;
+  padding: 10px 10px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 600px) {
+  .container {
+    display: grid;
+    grid-template-columns: 1fr;
+    align-items: center;
+    margin: auto;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .centered a {
+    display: grid;
+    grid-template-columns: 1fr;
+    align-items: center;
+    font-size: 16px;
+    padding: 5px 2px;
+    top: 80%;
+    left: 50%;
+  }
 }
 
 /* Pop up button i værktøj */
