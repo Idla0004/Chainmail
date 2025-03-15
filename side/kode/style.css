@@ -17,16 +17,17 @@ header {
 .head1 h2 {
   color: #4e321a;
   font-family: abril;
-  margin: 0;
+  margin: auto;
   font-size: 24px;
 }
 
 .head1 h3 {
   color: #8c7568;
   font-family: lato;
-  margin: 0;
+  margin: 2px;
   font-size: 16px;
   font-weight: normal;
+  padding: 0.5px;
 }
 
 a {
@@ -141,7 +142,7 @@ footer {
   width: 100%;
   text-align: center;
   display: flex;
-  align-items: last baseline;
+  align-items: center;
   margin: auto;
   margin-bottom: 10px;
   margin-top: 10px;
