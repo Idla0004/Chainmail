@@ -275,13 +275,13 @@ img {
 }
 
 .modal-content {
-  color: 403B35;
+  color: #403b35;
   background-color: #fdfaf5;
   margin: auto;
   padding: 20px;
   border: 1px solid #595540;
   border-radius: 5px;
-  width: 40%;
+  width: 25%;
 }
 
 .modal-content p,
@@ -296,6 +296,11 @@ h3 {
 
 .modal-content p {
   font-family: lato;
+}
+
+.modal-content img {
+  margin: auto;
+  border-radius: 10px;
 }
 
 .close {
@@ -332,6 +337,18 @@ h3 {
 
 #myBtn:hover {
   color: #dacfb4;
+}
+
+@media only screen and (max-width: 1000px) {
+  .modal-content {
+    color: #403b35;
+    background-color: #fdfaf5;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #595540;
+    border-radius: 5px;
+    width: 350px;
+  }
 }
 
 /* Pop up button i værktøj */
